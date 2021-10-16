@@ -1,1 +1,17 @@
 /* Onde vai todo a base do meu body */
+
+main {
+    height: 500px;
+}
+
+.main-cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
