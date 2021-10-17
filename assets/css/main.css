@@ -1,7 +1,7 @@
 /* Onde vai todo a base do meu body */
 
 main {
-    height: 500px;
+    height: auto;
 }
 
 .main-cabecalho {
@@ -17,16 +17,35 @@ main {
 }
 
 .main-cabecalho span {
-    margin: 10px 0 0 0;
-
+    margin: 20px 0 0 0;
     font-size: 16px;
     font-weight: 500;
 }
 
 .main-produtos {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 59px 100px;
 
+}
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+li {
+    background-color: var(--bgCard);
+    padding: 56px 15px;
+    margin: 19px 3px;
 }

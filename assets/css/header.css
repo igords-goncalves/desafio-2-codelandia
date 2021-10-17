@@ -34,7 +34,7 @@ header {
 
 .header-cover {
     height: 378px;
-    background-image: linear-gradient(to left, transparent 0%, var(--title) 99%), url("/e-comerce/assets/img/wallpaper.jpg");
+    background-image: linear-gradient(to left, transparent 0%, var(--title) 99%), url("/e-comerce/assets/img/wallpaper.jpeg");
     background-size: cover;
     
     display: flex;
@@ -46,7 +46,6 @@ header {
 .header-text {
     color: var(--bgSite);
     margin: 0 0 0 100px;
-    width: 460px;
 
 }
 
