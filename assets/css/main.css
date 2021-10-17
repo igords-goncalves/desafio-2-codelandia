@@ -31,6 +31,11 @@ main {
 
 }
 
+.produtos:hover img {
+    transform: scale(1.1);
+    transition: 0.4s all ease;
+}
+
 img {
     max-width: 100%;
     height: auto;
