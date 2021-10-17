@@ -48,4 +48,5 @@ li {
     background-color: var(--bgCard);
     padding: 56px 15px;
     margin: 19px 3px;
+    border-radius: 5px;
 }

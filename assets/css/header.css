@@ -3,7 +3,7 @@ header {
 }
 
 .header-promo {
-    height: 60px;
+    height: 40px;
     background-color: var(--title);
     color: var(--bgSite);
 
@@ -36,6 +36,8 @@ header {
     height: 378px;
     background-image: linear-gradient(to left, transparent 0%, var(--title) 99%), url("/e-comerce/assets/img/wallpaper.jpeg");
     background-size: cover;
+    /* background-attachment: fixed; Faz a imagem scroll, porém não gosto desse efeito */ 
+    background-position: center;
     
     display: flex;
     flex-direction: column;
