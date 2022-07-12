@@ -1,0 +1,33 @@
+@import "./components/Header.css";
+@import "./components/Main.css";
+@import "./components/Footer.css";
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bgSite: #f6f6f6;
+    --bgCard: #ebe9ea;
+
+    --white: #fff;
+
+    --title: #181818;
+    --text: #474747;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    font-size: 1.6rem;
+}
