@@ -74,3 +74,13 @@ header {
         display: none;
     }
 }
+
+@media (max-width: 420px ) {
+    .header-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
