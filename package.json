@@ -1,0 +1,29 @@
+{
+  "name": "e-comerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igords-goncalves/desafio-2-codelandia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Igords-goncalves/desafio-2-codelandia/issues"
+  },
+  "homepage": "https://github.com/Igords-goncalves/desafio-2-codelandia#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "scrollreveal": "^4.0.9",
+    "type.js": "^0.0.1"
+  }
+}
