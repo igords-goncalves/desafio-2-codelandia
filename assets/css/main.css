@@ -1,7 +1,7 @@
 /* Onde vai todo a base do meu body */
 
 main {
-    height: auto;
+    width: 100%;
 }
 
 .main-cabecalho {
@@ -36,12 +36,6 @@ main {
     transition: 0.4s all ease;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
 ul {
     list-style: none;
     margin: 0;
@@ -49,7 +43,11 @@ ul {
     padding: 0;
 }
 
-li {
+img {
+    width: 100%;
+}
+
+.produtos {
     background-color: var(--bgCard);
     padding: 56px 15px;
     margin: 19px 3px;
