@@ -1,6 +1,9 @@
 import { createElements, insertAdjacentTexts, setAttributes } from '../utils/funcions.js'
 
 export function Main() {
+
+    const main = createElements('main')
+
     const div = createElements('div')
     setAttributes(div, 'class', 'main-cabecalho')
 
@@ -16,5 +19,7 @@ export function Main() {
     const element = [h2, span]
     div.append(...element)
 
-    return div
+    main.appendChild(div)
+
+    return main
 }
