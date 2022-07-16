@@ -1,3 +1,8 @@
 import { Header } from "./components/Header.js";
 
-Header()
+
+const elements = [
+    Header()
+]
+
+document.body.append(...elements)

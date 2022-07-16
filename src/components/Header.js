@@ -11,6 +11,9 @@ export function Header() {
     span.insertAdjacentText('beforeend', text)
     span.setAttribute('class', 'main-anuncio')
 
-    div.appendChild(h2)
-    div.appendChild(div)
+    const element = [h2, span]
+
+    div.append(...element)
+
+    return div
 }
