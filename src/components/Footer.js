@@ -1,9 +1,13 @@
-import { createElements, insertAdjacentTexts, setAttributes } from '../utils/funcions.js'
+import { createElements, setAttributes } from '../utils/funcions.js'
 
 export function Footer() {
     const footer = createElements('footer')
 
-    console.log('teste')
+    const p = createElements('p')
+    setAttributes(p, 'class', 'foot-direitos')
+    p.innerHTML = 'Todos os direitos reservados &copy; NIKE'
+ 
+    footer.appendChild(p)
     
     return footer
 }
