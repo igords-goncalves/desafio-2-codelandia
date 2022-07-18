@@ -1,4 +1,5 @@
 import { createElements, insertAdjacentTexts, setAttributes } from '../utils/funcions.js'
+import { Products } from './Products.js'
 
 export function Main() {
 
@@ -20,6 +21,8 @@ export function Main() {
     div.append(...element)
 
     main.appendChild(div)
+
+    main.append(Products())
 
     return main
 }
