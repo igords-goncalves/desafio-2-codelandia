@@ -1,4 +1,4 @@
-import { createElements, insertAdjacentTexts, setAttributes } from '../utils/funcions.js'
+import { createElements, setAttributes } from '../utils/funcions.js'
 
 export function Products() {
     const ul = createElements('ul')
@@ -27,6 +27,10 @@ export function Products() {
     const img1 = createElements('img')
     setAttributes(img1, 'src', products.product1)
     setAttributes(img1, 'style', style)
+
+    a1.appendChild(img1)
+    l1.appendChild(a1)
+    ul.appendChild(l1)
     
 
     const l2 = createElements('li')
@@ -40,6 +44,10 @@ export function Products() {
     setAttributes(img2, 'src', products.product2)
     setAttributes(img2, 'style', style)
 
+    a2.appendChild(img2)
+    l2.appendChild(a2)
+    ul.appendChild(l2)
+
     const l3 = createElements('li')
     setAttributes(l3, 'id', 'produto-3')
     setAttributes(l3, 'class', 'produtos')
@@ -50,6 +58,10 @@ export function Products() {
     const img3 = createElements('img')
     setAttributes(img3, 'src', products.product3)
     setAttributes(img3, 'style', style)
+
+    a3.appendChild(img3)
+    l3.appendChild(a3)
+    ul.appendChild(l3)
 
     const l4 = createElements('li')
     setAttributes(l4, 'id', 'produto-4')
@@ -62,6 +74,10 @@ export function Products() {
     setAttributes(img4, 'src', products.product4)
     setAttributes(img4, 'style', style)
 
+    a4.appendChild(img4)
+    l4.appendChild(a4)
+    ul.appendChild(l4)
+
     const l5 = createElements('li')
     setAttributes(l5, 'id', 'produto-5')
     setAttributes(l5, 'class', 'produtos')
@@ -72,6 +88,10 @@ export function Products() {
     const img5 = createElements('img')
     setAttributes(img5, 'src', products.product5)
     setAttributes(img5, 'style', style)
+
+    a5.appendChild(img5)
+    l5.appendChild(a5)
+    ul.appendChild(l5)
 
     const l6 = createElements('li')
     setAttributes(l6, 'id', 'produto-6')
@@ -84,6 +104,10 @@ export function Products() {
     setAttributes(img6, 'src', products.product6)
     setAttributes(img6, 'style', style)
 
+    a6.appendChild(img6)
+    l6.appendChild(a6)
+    ul.appendChild(l6)
+
     const l7 = createElements('li')
     setAttributes(l7, 'id', 'produto-7')
     setAttributes(l7, 'class', 'produtos')
@@ -95,8 +119,12 @@ export function Products() {
     setAttributes(img7, 'src', products.product7)
     setAttributes(img7, 'style', style)
 
+    a7.appendChild(img7)
+    l7.appendChild(a7)
+    ul.appendChild(l7)
+
     const l8 = createElements('li')
-    setAttributes(l8, 'id', 'produto-1')
+    setAttributes(l8, 'id', 'produto-8')
     setAttributes(l8, 'class', 'produtos')
 
     const a8 = createElements('a')
@@ -105,17 +133,10 @@ export function Products() {
     const img8 = createElements('img')
     setAttributes(img8, 'src', products.product8)
     setAttributes(img8, 'style', style)
-
-
-    const ancorElements = [a1, a2, a3, a4, a5, a6, a7, a8] 
-    const imgElements = [img1, img2, img3, img4, img5, img6, img7, img8]
-    const listElements = [l1, l2, l3, l4, l5, l6, l7, l8]
-
-    listElements.forEach(e => e.append(...ancorElements))
-
-    ancorElements.forEach(e => e.append(...imgElements))
     
-    ul.append(...listElements)
+    a8.appendChild(img8)
+    l8.appendChild(a8)
+    ul.appendChild(l8)
 
     return ul
 }
